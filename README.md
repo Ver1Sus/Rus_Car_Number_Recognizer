@@ -5,10 +5,11 @@
 Get video-frame from web-camera.
 
 Using OpenCV find on frame car number. You can change the method of finding, wiht using diffrent cascades:
-<i>#choose cascade for search
-#cascPath = 'rus_plate_cascade.xml'
-#cascPath = 'haarcascade_licence_plate_rus_16stages.xml'
-cascPath = 'haarcascade_russian_plate_number.xml'</i>
+
+<i>#choose cascade for search<br/>
+<i>#cascPath = 'rus_plate_cascade.xml'<br/>
+<i>#cascPath = 'haarcascade_licence_plate_rus_16stages.xml'<br/>
+<i>cascPath = 'haarcascade_russian_plate_number.xml'</i><br/>
 
 Cut number and save them in file tes.png
 
@@ -30,16 +31,18 @@ Tesseract use Russian alphabet from file rus.traineddata - recognize only russia
 
 
 
-//-------Another info for Russian :)
+<b>ANOTHER INFO IN RUSSIAN :)</b>
+</br>
 <b>Эта программа работает следующим образом:</b>
 
 Покадрово обрабатывает изображения с камеры.
 
 Используя OpenCV ищет на изображении автомобильный номер. Можно изменить способ, используя разные каскады:
-<i>#choose cascade for search
-#cascPath = 'rus_plate_cascade.xml'
-#cascPath = 'haarcascade_licence_plate_rus_16stages.xml'
-cascPath = 'haarcascade_russian_plate_number.xml'</i>
+
+<i>#choose cascade for search<br/>
+<i>#cascPath = 'rus_plate_cascade.xml'<br/>
+<i>#cascPath = 'haarcascade_licence_plate_rus_16stages.xml'<br/>
+<i>cascPath = 'haarcascade_russian_plate_number.xml'</i><br/>
 
 Вырезает номер и сохраняет в файл tes.png
 
